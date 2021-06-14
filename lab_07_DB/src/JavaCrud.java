@@ -54,7 +54,8 @@ public class JavaCrud {
         cb_label_publisher_id.setEnabled(false);
         label_label_id.setEnabled(false);
         connect();
-
+        comic_book_table_load();
+        label_table_load();
         saveButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
